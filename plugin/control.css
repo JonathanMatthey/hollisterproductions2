@@ -1,0 +1,222 @@
+.mejs-inner {
+	width: 100%;
+	height: 100%;
+}
+
+.mejs-fuisz {
+	margin: auto;
+}
+
+.mejs-fuisz .mejs-controls {
+	z-index: 9999;
+	height: 26px;
+	visibility: hidden;
+	background: #1c2125;
+}
+
+.mejs-fuisz .mejs-loading {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 6666;
+	background: rgba(0, 0, 0, 0.7) url(../build/loading.gif) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-separa {
+	margin: 0px;
+	width: 0px;
+	border-left: 1px solid #212221;
+	border-right: 1px solid #30302f;
+}
+
+.mejs-controls .mejs-button button {
+    outline: none;
+	margin: 0px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-play {
+	margin: 0 15px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-pause {
+	margin: 0 15px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-play button {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-play-off.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-pause button {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-play-on.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time-rail {
+	margin: 0px 10px;
+	padding: 0px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #2b2b2b;
+	height: 6px;
+    border-radius: 0;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #b59772;
+	height: 6px;
+    border-radius: 0;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time {
+	margin-top: 0px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time-rail .mejs-time-dia {
+	position: static;
+	display: block;
+	float: right;
+	width: 0px;
+	height: 0px;
+	margin: -8px -12px -7px 0px;
+	background: url(img/dia.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls div {
+	margin: 0px 10px;
+	width: 20px;
+	height: 26px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-volume-slider {
+	left: -6px;
+	width: 36px;
+	border-radius: 0px;
+	background: #1c2125;
+}
+
+.mejs-fuisz .mejs-controls .mejs-volume-slider .mejs-volume-total {
+	background: #2b2b2b;
+	width: 4px;
+	left: 16px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-volume-slider .mejs-volume-current {
+	left: 16px;
+	width: 4px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-volume-slider .mejs-volume-handle {
+	left: 10px;
+	width: 0;
+
+}
+
+.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current {
+	background: #b59772;
+}
+
+.mejs-fuisz .mejs-controls .mejs-mute button  {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-volume-off.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-unmute button  {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-volume-on.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-fullscreen-button button {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-fullscreen-off.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-unfullscreen button {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-fullscreen-on.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive {
+	position: relative;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive button {
+	width: 20px;
+	height: 26px;
+	background: url(img/button-interactivity-off.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive button.active {
+	background: url(img/button-interactivity-on.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive {
+	position: absolute;
+	display: none;
+	top: -145px;
+	left: -92px;
+	width: 128px;
+	height: 135px;
+	background: url(img/settings-modal.png) no-repeat center center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive div {
+	font-size: 12px;
+	color: white;
+	margin: 3px;
+	float: none;
+	width: auto;
+	height: auto;
+	line-height: 24px;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive .popup-title {
+	padding-left: 55px;
+	height: 36px;
+	cursor: default;
+	line-height: 38px;
+	border-bottom: 2px solid #545554;
+	background: url(img/fuisz-logo-small.png) no-repeat 12px center;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive div.options {
+	padding-left: 36px;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	-o-user-select: none;
+	user-select: none;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive div.options:hover {
+	color: #7196ce;
+}
+
+.mejs-fuisz .mejs-controls .mejs-interactive .popup-interactive div.selected {
+	background: url(img/check.png) no-repeat 12px center;
+	font-weight: bold;
+}
+
+.mejs-fuisz .mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #222222;
+	height: 6px;
+	margin: 10px 0px;
+    border-radius: 0;
+}
+
+.mejs-container .mejs-controls .mejs-time span {
+	font-size: 10px;
+	color: #d5d5d5;
+	margin-top: 0;
+}
+
+
+

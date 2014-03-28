@@ -1,0 +1,88 @@
+.mejs-dialog {
+	height: 1px !important;
+	display: block;
+	top: 0px;
+	left: 0px;
+	z-index: 9998;
+}
+
+.mejs-dialog .popup {
+	z-index: 9998;
+	position: absolute;
+}
+
+.mejs-dialog .to-wishlist {
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	width: 44px;
+	height: 44px;
+	background-image: url(img/dot.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* bubble-popup */
+.mejs-dialog .bubble-popup {
+	position: absolute;
+	display: none;
+	left: 0px;
+	top: 0px;
+	width: 244px;
+	color: white;
+	padding-left: 50px;
+	background: url(img/dot.png) no-repeat center left;
+}
+
+.mejs-dialog .bubble-popup .cover-popup {
+	position: relative;
+}
+
+.mejs-dialog .bubble-popup .cover-popup .close {
+	background: url(img/close-up.png) no-repeat center center;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.mejs-dialog .bubble-popup .cover-popup .body {
+	height: 188px;
+	font-family: Helvetica, arial, tahoma;
+}
+
+.mejs-dialog .bubble-popup .cover-popup .product-info {
+	margin: 0px;
+}
+
+.mejs-dialog .bubble-popup .cover-popup .brand {
+    font-family: "Helvetica Condensed";
+	font-weight: bold;
+	font-size: 32px;
+	overflow: hidden;
+	text-transform: uppercase;
+    color: #FFFFFF;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7); 
+}
+
+.mejs-dialog .bubble-popup .cover-popup .product-name {
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'customgothic',Arial,Helvetica,'sans serif';
+	font-size: 24px;
+    color: #FFFFFF;
+	text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.7); 
+}
+
+
+.embed .mejs-dialog .bubble-popup .cover-popup .brand {
+	font-size: 10pt;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7); 
+}
+
+.embed .mejs-dialog .bubble-popup .cover-popup .product-name {
+	font-size: 22pt;
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7); 
+}
